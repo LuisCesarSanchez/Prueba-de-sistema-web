@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>ENCICLOPEDIAS</p>
+    
+<p id="demo">Este texto cambia de color cuando se pulsa un botón.</p>
+<button onclick="cambiaColortexto('red')">Color rojo</button>
+
+<script>
+function cambiaColortexto(color) {
+    document.getElementById("demo").style.color = color;
+}
+</script>
+ 
+</body>
+</html>
