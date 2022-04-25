@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<p id="demo">Este texto cambia de color cuando se pulsa un botón.</p>
+<button onclick="cambiaColortexto('red')">Color rojo</button>
+<button onclick="cambiaColortexto('green')">Color verde</button>
+<button onclick="cambiaColortexto('blue')">Color azul</button>
+<script>
+function cambiaColortexto(color) {
+    document.getElementById("demo").style.color = color;
+}
+</script>
+ 
+</body>
+</html>
